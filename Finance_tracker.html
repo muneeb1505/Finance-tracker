@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="Finance_tracker.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Tracker</h1>
+    </header>
+    <main>
+        <section id="income">
+            <h2>Income</h2>
+            <div id="income-list">
+                <!-- Income entries will be added here dynamically -->
+            </div>
+            <button id="add-income">Add Income</button>
+        </section>
+
+        <section id="expenses">
+            <h2>Expenses</h2>
+            <div id="expenses-list">
+                <!-- Expense entries will be added here dynamically -->
+            </div>
+            <button id="add-expense">Add Expense</button>
+        </section>
+    </main>
+
+    <section id="summary">
+        <h2>Summary</h2>
+        <div>
+            <p>Total Income: <span id="total-income">0</span></p>
+            <p>Total Expenses: <span id="total-expenses">0</span></p>
+            <p>Balance: <span id="balance">0</span></p>
+        </div>
+    </section>
+    
+    <script src="Finance_tracker.js"></script>
+</body>
+</html>
